@@ -1,0 +1,53 @@
+WOrksheet 4 
+Machine learning
+1. option a
+2. option c
+3. option c
+4. option a
+5. option a
+6. option b
+7. option b
+8. option a,c
+9. option a,d
+10. option a,b,d
+
+11. Outliers- An outlier is an observation that lies an abnormal distance from other values in a random sample from a population. 
+In a sense, this definition leaves it up to the analyst (or a consensus process) to decide what will be considered abnormal. 
+Before abnormal observations can be singled out, it is necessary to characterize normal observations
+Interquartile range method to find outliers-IQR is the range between the first and the third quartiles namely Q1 and Q3: IQR = Q3 – Q1. 
+The data points which fall below Q1 – 1.5 IQR or above Q3 + 1.5 IQR are outliers.
+
+12. Bagging and boosting are both ensemble learning methods in machine learning.
+Bagging and boosting are similar in that they are both ensemble techniques, where a set of weak learners are combined to create a strong learner that obtains better performance than a single one.
+Ensemble learning helps to improve machine learning model performance by combining several models. This approach allows the production of better predictive performance compared to a single model.
+The basic idea behind ensemble learning is to learn a set of classifiers (experts) and to allow them to vote. This diversification in Machine Learning is achieved by a technique called ensemble learning. 
+The idea here is to train multiple models, each with the objective to predict or classify a set of results.
+Bagging and boosting are two types of ensemble learning techniques. These two decrease the variance of single estimate as they combine several estimates from different models. So the result may be a model with higher stability.
+The main causes of error in learning are due to noise, bias and variance. Ensemble helps to minimize these factors. By using ensemble methods, we’re able to increase the stability of the final model and reduce the errors mentioned previously.
+Bagging helps to decrease the model’s variance.
+Boosting helps to decrease the model’s bias.
+These methods are designed to improve the stability and the accuracy of Machine Learning algorithms. Combinations of multiple classifiers decrease variance, especially in the case of unstable classifiers, and may produce a more reliable classification than a single classifier.
+To use Bagging or Boosting you must select a base learner algorithm.
+
+13.Adjusted R-squared-The adjusted R-squared is a modified version of R-squared that has been adjusted for the number of predictors in the model. 
+The adjusted R-squared increases only if the new term improves the model more than would be expected by chance. 
+It decreases when a predictor improves the model by less than expected by chance.
+value can be calculated based on value of r-squared, number of independent variables (predictors), total sample size. 
+Every time you add a independent variable to a model, the R-squared increases, even if the independent variable is insignificant. It never declines.
+
+14. difference between normalization and standardization. 
+Normalization typically means rescales the values into a range of [0,1]. Standardization typically means rescales data to have a mean of 0 and a standard deviation of 1 (unit variance).
+
+15.  Cross Validation-
+Cross validation is a technique for assessing how the statistical analysis generalises to an independent data set.It is a technique for evaluating machine learning models by training several models on subsets of the available input data and evaluating them on the complementary subset of the data.
+
+Advantages of K fold or 10-fold cross-validation
+
+Computation time is reduced as we repeated the process only 10 times when the value of k is 10.
+Reduced bias.
+Every data points get to be tested exactly once and is used in training k-1 times.
+The variance of the resulting estimate is reduced as k increases.
+
+Disadvantages of Cross validation.
+
+The disadvantage of this method is that the training algorithm has to be rerun from scratch k times, which means it takes k times as much computation to make an evaluation. A variant of this method is to randomly divide the data into a test and training set k different times.

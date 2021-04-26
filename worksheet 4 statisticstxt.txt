@@ -1,0 +1,67 @@
+worksheet 4 
+statistics
+1. The central limit theorem states that if you have a population with mean μ and standard deviation σ and take sufficiently large random samples from the population with replacementtext annotation indicator, then the distribution of the sample means will be approximately normally distributed. 
+This will hold true regardless of whether the source population is normal or skewed, provided the sample size is sufficiently large (usually n > 30). If the population is normal, 
+then the theorem holds true even for samples smaller than 30. In fact, this also holds true even if the population is binomial, provided that min(np, n(1-p))> 5, where n is the sample size and p is the probability of success in the population. 
+This means that we can use the normal probability model to quantify uncertainty when making inferences about a population mean based on the sample mean.
+
+2. Sampling is a technique of selecting individual members or a subset of the population to make statistical inferences from them and estimate characteristics of the whole population. 
+Different sampling methods are widely used by researchers in market research so that they do not need to research the entire population to collect actionable insights.
+type of sampling methods:
+
+Probability sampling: Probability sampling is a sampling technique where a researcher sets a selection of a few criteria and chooses members of a population randomly. 
+All the members have an equal opportunity to be a part of the sample with this selection parameter.
+
+Non-probability sampling: In non-probability sampling, the researcher chooses members for research at random. This sampling method is not a fixed or predefined selection process. 
+This makes it difficult for all elements of a population to have equal opportunities to be included in a sample.
+
+3. Type 1 error, in statistical hypothesis testing, is the error caused by rejecting a null hypothesis when it is true.
+Type 1 error is caused when the hypothesis that should have been accepted is rejected.
+Type I error is denoted by α (alpha) known as an error, also called the level of significance of the test.
+This type of error is a false negative error where the null hypothesis is rejected based on some error during the testing.
+The null hypothesis is set to state that there is no relationship between two variables and the cause-effect relationship between two variables, if present, is caused by chance.
+Type 1 error occurs when the null hypothesis is rejected even when there is no relationship between the variables.
+As a result of this error, the researcher might end up believing that the hypothesis works even when it doesn’t.
+
+type2 error:
+Type II error is the error that occurs when the null hypothesis is accepted when it is not true.
+In simple words, Type II error means accepting the hypothesis when it should not have been accepted.
+The type II error results in a false negative result.
+In other words, type II is the error of failing to accept an alternative hypothesis when the researcher doesn’t have adequate power.
+The Type II error is denoted by β (beta) and is also termed as the beta error.
+The null hypothesis is set to state that there is no relationship between two variables and the cause-effect relationship between two variables, if present, is caused by chance.
+Type II error occurs when the null hypothesis is acceptable considering that the relationship between the variables is because of chance or luck, and even when there is a relationship between the variables.
+As a result of this error, the researcher might end up believing that the hypothesis doesn’t work even when it should.
+
+4. Normal Distribution-
+Normal distribution, also known as the Gaussian distribution, is a probability distribution that is symmetric about the mean, 
+showing that data near the mean are more frequent in occurrence than data far from the mean. In graph form, normal distribution will appear as a bell curve.
+
+5. Covarience-Covariance is a measure of how much two random variables vary together.
+it involve the relationship between two variables or data sets.
+Lie between -infinity and +infinity.
+have dimensions
+dependent on scale of variable
+
+Correlation-Correlation is a statistical measure that indicates how strongly two variables are related.
+involve the relationship between multiple variables as well.
+Lie between -1 and +1.
+dimensionless.
+independent on scale of variable.
+
+6. Univarate Analysis
+Univariate analysis is the simplest form of data analysis where the data being analyzed contains only one variable. Since it's a single variable it doesn’t deal with causes or relationships. 
+The main purpose of univariate analysis is to describe the data and find patterns that exist within it.
+
+Bivarate Analysis
+Bivariate analysis is used to find out if there is a relationship between two different variables. Something as simple as creating a scatterplot by plotting one variable against another.
+
+Multivariate Analysis
+Multivariate analysis is the analysis of three or more variables.  There are many ways to perform multivariate analysis depending on your goals.  Some of these methods include:
+Additive Tree,Canonical Correlation Analysis etc.
+
+7.A sensitivity analysis determines how different values of an independent variable affect a particular dependent variable under a given set of assumptions.
+In other words, sensitivity analyses study how various sources of uncertainty in a mathematical model contribute to the model's overall uncertainty
+calculation: The sensitivity is calculated by dividing the percentage change in output by the percentage change in input.
+
+8. 
